@@ -8,14 +8,12 @@ function calculate() {
 	bmi = bmi.toFixed(1);
 
 	if (bmi <= 18.4) {
-		measure = "وزنك " + bmi  + "لديك نقص في الوزن";
-        
+		measure = " وزنك " + bmi  + "لديك نقص في الوزن";
 	} else if (bmi >= 18.5 && bmi <= 24.9) {
-		measure = "وزنك " + bmi +  "وزنك صحي";
+		measure = " وزنك " + bmi +  "وزنك صحي";
        
 	} else if (bmi >= 25 ) {
-		let measure = "وزنك" + bmi + "لديك زيادة في الوزن";
-        measure.style
+		measure = "وزنك" + bmi + "لديك زيادة في الوزن";
 
     }
 
